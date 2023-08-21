@@ -1,0 +1,24 @@
+{
+  "name": "cy-en-pt",
+  "version": "1.0.0",
+  "description": "Sample project to demonstrate how to test a website that has versions in two different languages (En and PT-BR.)",
+  "main": "cypress.config.js",
+  "scripts": {
+    "cy:open:en": "cypress open --env language='en'",
+    "cy:open:pt-br": "cypress open --env language='pt-br'",
+    "test": "npm run test:en && npm run test:pt-br",
+    "test:en": "cypress run --env language='en'",
+    "test:pt-br": "cypress run --env language='pt-br'"
+  },
+  "keywords": [
+    "Cyperss.io",
+    "Testing",
+    "Talking About Testing",
+    "Multi-language testing"
+  ],
+  "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Central de Atendimento ao Cliente TAT",
+  "heading": "CAC TAT",
+  "paragraphBelowHeading": "Forneça o máximo de informações, por favor.",
+  "firstName": "Nome",
+  "lastName": "Sobrenome",
+  "email": "E-mail",
+  "phone": "Telefone",
+  "product": {
+    "label": "Produto",
+    "select": "Selecione",
+    "blog": {
+      "value": "blog",
+      "content": "Blog"
+    },
+    "courses": {
+      "value": "cursos",
+      "content": "Cursos"
+    },
+    "mentorship": {
+      "value": "mentoria",
+      "content": "Mentoria"
+    },
+    "youtube": {
+      "value": "youtube",
+      "content": "YouTube"
+    }
+  },
+  "typeOfService": {
+    "label": "Tipo de atendimento",
+    "help": "Ajuda",
+    "praise": "Elogio",
+    "feedback": "Feedback"
+  },
+  "preferredMeansOfContact": {
+    "label": "Qual seu meio de contato preferencial?",
+    "email": {
+      "value": "email",
+      "label": "E-mail"
+    },
+    "phone": {
+      "value": "phone",
+      "label": "Telefone"
+    }
+  },
+  "testArea": {
+    "labels": [ "Como podemos te ajudar?" ]
+  },
+  "attachAFile": "Adicione um anexo",
+  "required": "obrigatório",
+  "send": "Enviar",
+  "privacyPolicy": "Política de Privacidade",
+  "successMessage": "Mensagem enviada com sucesso.",
+  "errorMessage": "Valide os campos obrigatórios!"
+}

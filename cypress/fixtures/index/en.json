@@ -1,0 +1,58 @@
+{
+  "title": "TAT Customer Service Center",
+  "heading": "TAT CSC",
+  "paragraphBelowHeading": "Please, provide as much information as possible.",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "email": "Email",
+  "phone": "Phone",
+  "product": {
+    "label": "Product",
+    "select": "Select",
+    "blog": {
+      "value": "blog",
+      "content": "Blog"
+    },
+    "courses": {
+      "value": "courses",
+      "content": "Courses"
+    },
+    "mentorship": {
+      "value": "mentorship",
+      "content": "Mentorship"
+    },
+    "youtube": {
+      "value": "youtube",
+      "content": "YouTube"
+    }
+  },
+  "typeOfService": {
+    "label": "Type of service",
+    "help": "Help",
+    "praise": "Praise",
+    "feedback": "Feedback"
+  },
+  "preferredMeansOfContact": {
+    "label": "What is your preferred means of contact?",
+    "email": {
+      "value": "email",
+      "label": "E-mail"
+    },
+    "phone": {
+      "value": "phone",
+      "label": "Phone"
+    }
+  },
+  "testArea": {
+    "labels": [
+      "How can we help you?",
+      "Any praise or feedback for us?"
+    ]
+  },
+  "attachAFile": "Attach a file",
+  "required": "required",
+  "send": "Send",
+  "privacyPolicy": "Privacy Policy",
+  "successMessage": "Message successfully sent.",
+  "errorMessage": "Validate the required fields!"
+}
