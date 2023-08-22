@@ -127,7 +127,7 @@ describe('Test the same app in two different languages (EN and PT-BR)', () => {
   it('checks all of the privacy page translations', () => {
     // Define the translations for the privacy page (privacy.html)
     const translations = require(`../fixtures/privacy/${language}`)
-    // Visit the application's home page
+    // Visit the application's privacy page
     cy.visit(`${url}/privacy.html`)
     // Check title
     cy.title().should('be.equal', translations.title)
