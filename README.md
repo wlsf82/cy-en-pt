@@ -2,7 +2,7 @@
 
 [![main](https://github.com/wlsf82/cy-en-pt/actions/workflows/ci.yml/badge.svg)](https://github.com/wlsf82/cy-en-pt/actions)
 
-Sample project to demonstrate how to test a website that has versions in two different languages (En and PT-BR.)
+Sample project to demonstrate how to test a website that has versions in two different languages (EN and PT-BR.)
 
 ## Pre-requirements
 
