@@ -8,8 +8,10 @@ jobs:
         uses: actions/checkout@v3
       - name: Cypress run
         uses: cypress-io/github-action@v5
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         with:
-          command: npm run test:en
+          command: npm run test:cloud:en
   cypress-run-pt-br:
     runs-on: ubuntu-22.04
     steps:
@@ -17,5 +19,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Cypress run
         uses: cypress-io/github-action@v5
+        env:
+          CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
         with:
-          command: npm run test:pt-br
+          command: npm run test:cloud:pt-br

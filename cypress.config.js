@@ -4,4 +4,5 @@ module.exports = defineConfig({
   e2e: {
     supportFile: false,
   },
+  projectId: 'rdmgm7',
 })

@@ -8,7 +8,9 @@
     "cy:open:pt-br": "cypress open --env language='pt-br'",
     "test": "npm run test:en && npm run test:pt-br",
     "test:en": "cypress run --env language='en'",
-    "test:pt-br": "cypress run --env language='pt-br'"
+    "test:pt-br": "cypress run --env language='pt-br'",
+    "test:cloud:en": "cypress run --env language='en' --record --tag 'en'",
+    "test:cloud:pt-br": "cypress run --env language='pt-br' --record --tag 'pt-br'"
   },
   "keywords": [
     "Cyperss.io",
@@ -19,6 +21,6 @@
   "author": "Walmyr <wlsf82@gmail.com> (https://walmyr.dev/)",
   "license": "MIT",
   "devDependencies": {
-    "cypress": "^12.17.4"
+    "cypress": "^13.0.0"
   }
 }
