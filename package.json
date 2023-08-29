@@ -1,7 +1,7 @@
 {
   "name": "cy-en-pt",
   "version": "1.0.0",
-  "description": "Sample project to demonstrate how to test a website that has versions in two different languages (En and PT-BR.)",
+  "description": "Sample project to demonstrate how to test a website that has versions in two different languages (EN and PT-BR.)",
   "main": "cypress.config.js",
   "scripts": {
     "cy:open:en": "cypress open --env language='en'",
