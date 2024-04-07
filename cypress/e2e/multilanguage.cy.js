@@ -141,11 +141,7 @@ describe('Test the same app in two different languages (EN and PT-BR)', () => {
 })
 
 function defineUrl(lang) {
-  if (lang === 'en') {
-    return 'https://tat-csc.s3.sa-east-1.amazonaws.com'
-  } else if (Cypress.env('language') === 'pt-br') {
-    return 'https://cac-tat.s3.eu-central-1.amazonaws.com'
-  } else {
-    return `Not supported language: ${lang}.`
-  }
+  if (lang === 'en') return 'https://tat-csc.s3.sa-east-1.amazonaws.com'
+  if (lang === 'pt-br') return 'https://cac-tat.s3.eu-central-1.amazonaws.com'
+  return `Not supported language: ${lang}.`
 }
